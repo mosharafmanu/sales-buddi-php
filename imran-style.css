@@ -116,9 +116,9 @@
 	align-items: center;
 }
 .app-showcase-inner .mobile-mockup {
-  width: 31.25rem;
-  height: 30.375rem;
-  margin: 0 auto;
+	width: 31.25rem;
+	height: 30.375rem;
+	margin: 0 auto;
 }
 .app-showcase-inner {
 	text-align: center;
@@ -177,12 +177,12 @@
 
 @media only screen and (max-width: 767px){
 	.app-showcase-inner .app-about {
-	position: static;
-	text-align: start;
-	margin-top: 3.125rem;
-	margin-left: auto;
-	margin-right: auto;
-}
+		position: static;
+		text-align: start;
+		margin-top: 3.125rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 
@@ -191,35 +191,34 @@
 
 @media only screen and (max-width: 400px){
 	.client-review-top {
-	width: 17.375rem;
-	margin-bottom: 1rem;
-}
-.hero-content h1 {
-	font-size: 1.5rem;
-}
-.hero-content h1, .hero-content p {
-	margin-bottom: 1rem;
-}
-.text-svg {
-	margin-top: -1.6875rem;
-	position: relative;
-	z-index: -1;
-}
-.app-showcase-inner .mobile-mockup {
-	width: 16.0625rem;
-	height: 15.625rem;
-}
-.app-showcase-inner .app-about {
-	margin-top: 2.0625rem;
-	width: 100%;
-}
-.app-showcase-inner .app-about h2 {
-	font-family: var(--font-zalando-sans);
-	font-size: 1.25rem;
-	color: var(--sb-primary);
-	margin-bottom: .5831rem;
-}
-
+		width: 17.375rem;
+		margin-bottom: 1rem;
+	}
+	.hero-content h1 {
+		font-size: 1.5rem;
+	}
+	.hero-content h1, .hero-content p {
+		margin-bottom: 1rem;
+	}
+	.text-svg {
+		margin-top: -1.6875rem;
+		position: relative;
+		z-index: -1;
+	}
+	.app-showcase-inner .mobile-mockup {
+		width: 16.0625rem;
+		height: 15.625rem;
+	}
+	.app-showcase-inner .app-about {
+		margin-top: 2.0625rem;
+		width: 100%;
+	}
+	.app-showcase-inner .app-about h2 {
+		font-family: var(--font-zalando-sans);
+		font-size: 1.25rem;
+		color: var(--sb-primary);
+		margin-bottom: .5831rem;
+	}
 }
 
 /* Introducing Sales Buddi */
@@ -258,6 +257,16 @@
 	border-radius: 3rem;
 	border-top: .0625rem solid rgba(203, 245, 109, 0.06);
 	background: radial-gradient(86.85% 86.85% at 50% 0%, rgba(234, 251, 195, 0.03) 0%, rgba(234, 251, 195, 0.00) 100%);
+	position: relative;
+}
+.introducing-sales-buddi-inner::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 2px;
+	background: radial-gradient( 50% 100% at 50% 0%, rgba(203, 245, 109, 0.35), rgba(203, 245, 109, 0) );
 }
 .introducing-list {
 	margin: 0;
@@ -288,124 +297,111 @@
 }
 
 .sales-buddi-personalizes-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 .personalizes-item {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-bottom: .625rem;
 }
 .buddi-personalizes-item-wrapper {
-	padding: 40px 40px;
+	padding: 2.5rem 2.5rem;
 	position: relative;
 	overflow: hidden;
 }
 .buddi-personalizes-item-wrapper p {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 140%;
-  letter-spacing: -0.18px;
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 140%;
+	letter-spacing: -0.0112rem;
 }
 .buddi-personalizes-item-wrapper p span {
-  color: var(--sb-white);
+	color: var(--sb-white);
 }
 .buddi-personalizes-item-wrapper::after {
-  content: "";
-  position: absolute;
-  width: 1px;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.08);
+	content: "";
+	position: absolute;
+	width: .0625rem;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.08);
 }
 
 .buddi-personalizes-item-wrapper:first-of-type::after {
-  display: none;
+	display: none;
 }
 
 @media only screen and (max-width: 767px){
 	.introducing-section-content-wrapper {
 		flex-direction: column;
 		padding: 0;
-}
+	}
 	.introducing-section-media {
 		order: 2;
-		height: 600px;
+		height: 37.5rem;
 		padding: 0;
 		width: 100%;
-}
-.sales-buddi-personalizes-section {
-	grid-template-columns: repeat(1, 1fr);
-}
-.buddi-personalizes-item-wrapper::after {
-  width: 100%;
-  height: .0625rem;
-  left: 20px;
-}
-
-
+	}
+	.sales-buddi-personalizes-section {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.buddi-personalizes-item-wrapper::after {
+		width: 100%;
+		height: .0625rem;
+		left: 1.25rem;
+	}
 }
 
 @media only screen and (max-width: 400px){
 	.introducing-section-headding h2 {
 		font-size: 1.5rem;
-}
+	}
 	.introducing-section-content h3 {
 		letter-spacing: -0.06rem;
 		margin-bottom: 1.125rem;
-		font-size: 16px;
-}
+		font-size: 1rem;
+	}
 	.introducing-section-headding p {
 		font-size: 1rem;
-}
+	}
 	.buddi-personalizes-item-wrapper {
-		padding: 40px 0;
-}
+		padding: 2.5rem 0;
+	}
 	.buddi-personalizes-item-wrapper::after {
 		left: 0;
-}
+	}
 	.introducing-section-media {
 		padding: 0;
 		width: 100%;
-		height: 330px;
+		height: 20.625rem;
+	}
+	.buddi-personalizes-item-wrapper p {
+		font-size: 1rem;
+	}
 }
-.buddi-personalizes-item-wrapper p {
-	font-size: 1rem;
-}
-
-
-
-}
-
 
 
 /* Value Proposition */
 .section-heading h2 {
-}
-/* Value Proposition */
-.section-heading h2 {
-	text-align: center;
 	line-height: normal;
-	letter-spacing: -0.96px;
-	margin-bottom: 50px;
+	letter-spacing: -0.06rem;
+	margin-bottom: 3.125rem;
 }
 .value-proposition-content-wrapper {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	column-gap: 40px;
-	padding-left: 48px;
-	padding-right: 48px;
+	column-gap: 2.5rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 .value-proposition-content p span {
 	color: var(--sb-white);
 	font-weight: 600;
 }
 .value-proposition-content p {
-	margin-bottom: 18px;
-}
-.value-proposition-content p {
-	margin-bottom: 18px;
+	margin-bottom: 1.125rem;
 }
 .value-proposition-content .text-color {
 	color: var(--sb-white);
@@ -415,10 +411,10 @@
 }
 .value-proposition-inner-wrapper {
 	border-radius: var(--Corners, 16px);
-	border: 1px solid rgba(255, 255, 255, 0.03);
+	border: .0625rem solid rgba(255, 255, 255, 0.03);
 	background: rgba(255, 255, 255, 0.02);
-	padding: 24px;
-	margin-bottom: 18px;
+	padding: 1.5rem;
+	margin-bottom: 1.125rem;
 }
 .value-proposition-inner-wrapper p {
 	color: var(--sb-white);
@@ -426,7 +422,7 @@
 	margin: 0;
 }
 .value-proposition-media.media {
-	border-radius: 16px;
+	border-radius: 1rem;
 	overflow: hidden;
 }
 
@@ -437,41 +433,41 @@
 		padding-left: 0;
 		padding-right: 0;
 		row-gap: 2.5rem;
-}
+	}
 	.value-proposition-btn .quiz-btn {
-		margin-top: 12px;
-		margin-bottom: 12px;
-}
+		margin-top: .75rem;
+		margin-bottom: .75rem;
+	}
 }
 
 @media only screen and (max-width: 767px){
-.value-proposition-btn {
-	text-align: center;
-}
+	.value-proposition-btn {
+		text-align: center;
+	}
 }
 
 
 /* Why Take the Quiz Section Start */
 .take-the-quiz-content {
   display: flex;
-  column-gap: 72px;
+  column-gap: 4.5rem;
   align-items: center;
 }
 .take-the-quiz-content h4 {
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-weight: 600;
 	line-height: normal;
-	letter-spacing: -0.4px;
+	letter-spacing: -0.025rem;
 	margin: 0;
 }
 .take-the-quiz-content {
 	display: grid;
-	column-gap: 72px;
+	column-gap: 4.5rem;
 	align-items: center;
-	grid-template-columns: 200px minmax(0, 722px);
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid rgba(58, 58, 58, 0.69);
+	grid-template-columns: 12.5rem minmax(0, 45.125rem);
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	border-bottom: .0625rem solid rgba(58, 58, 58, 0.69);
 }
 .take-the-quiz-content-wrapper {
 	display: flex;
@@ -480,19 +476,19 @@
 }
 .quiz-content-inner {
 	display: flex;
-	column-gap: 72px;
+	column-gap: 4.5rem;
 	align-items: center;
 }
 .chech-icon {
 	display: flex;
 	flex-shrink: 0;
-	width: 42px;
-	height: 42px;
+	width: 2.625rem;
+	height: 2.625rem;
 }
 .quiz-content-inner p {
 	font-weight: normal;
 	line-height: 140%;
-	letter-spacing: -0.18px;
+	letter-spacing: -0.0112rem;
 }
 .section-heading h3 span{
 	color: var(--sb-primary);
@@ -504,58 +500,77 @@
 .the-science-behiend-section {
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
-	width: 1000px;
+	width: 62.5rem;
 	align-items: center;
 	margin: 0 auto;
-	border-radius: var(--Corners, 16px);
+	border-radius: 1rem;
 	border-bottom: 1px solid var(--Border-Gradient, rgba(212, 247, 134, 0.20));
 	background: linear-gradient(180deg, rgba(23, 23, 23, 0.00) 18.9%, #171717 126%);
 	overflow: hidden;
-	padding: 62px;
-	column-gap: 10px;
+	padding: 3.875rem;
+	column-gap: .625rem;
 }
 .the-science-behiend-media {
-	border-radius: 16px;
+	border-radius: 1rem;
 	overflow: hidden;
 }
 .the-science-behiend-content {
-	padding-left: 24px;
-	padding-right: 24px;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 }
 .what-happens {
-  text-align: center;
-  width: 1000px;
-  margin: 0 auto;
+	text-align: center;
+	max-width: 62.5rem;
+	margin: 0 auto;
+	position: relative;
+}
+.what-happens-shape {
+	max-width: 26.375rem;
+	max-width: 26.375rem;
+	position: absolute;
+	top: -9.375rem;
+	bottom: 11.1668rem;
+	fill: rgba(203, 245, 109, 0.06);
+	filter: blur(5.6031rem);
+	left: calc(44% - 9.375rem);
+}
+.what-happens h3 {
+	font-size: 2.25rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 140%;
+	letter-spacing: -0.0675rem;
+	margin-bottom: 1rem;
 }
 .what-happens span {
-  color: var(--sb-white);
+	color: var(--sb-white);
 }
 .what-happens .quiz-btn {
-  margin-top: 32px;
+	margin-top: 2rem;
 }
 
 
 @media only screen and (max-width: 991px){
 	.take-the-quiz-inner {
-		margin-left: 48px;
-		margin-right: 48px;
+		margin-left: 3rem;
+		margin-right: 3rem;
 	}
 	.take-the-quiz-content {
-		column-gap: 40px;
-}
+		column-gap: 2.5rem;
+	}
 	.quiz-content-inner {
-		column-gap: 40px;
-}
+		column-gap: 2.5rem;
+	}
 	.take-the-quiz-content {
 		grid-template-columns: repeat(1, 1fr);
-		row-gap: 16px;
-}
+		row-gap: 1rem;
+	}
 	.the-science-behiend-section {
 		width: 100%;
-}
+	}
 	.what-happens {
 		width: 100%;
-}
+	}
 
 
 }
@@ -565,21 +580,19 @@
 		display: grid;
 		grid-template-columns: repeat(1,1fr);
 		width: 100%;
-		padding: 66px 16px;
-		row-gap: 32px;
-}
+		padding: 4.125rem 1rem;
+		row-gap: 2rem;
+	}
 	.the-science-behiend-media {
 		order: 2;
-}
+	}
 	.the-science-behiend-content{
 		padding: 0;
-}
+	}
 	.take-the-quiz-inner {
-			margin-left: 0;
-			margin-right: 0;
-}
-
-
+		margin-left: 0;
+		margin-right: 0;
+	}
 
 }
 
@@ -587,14 +600,14 @@
 @media only screen and (max-width: 400px){
 		.take-the-quiz-content {
 			position: relative;
-			margin-bottom: 40px;
+			margin-bottom: 2.5rem;
 	}
 		.chech-icon {
 			position: absolute;
-			top: -16px;
+			top: -1rem;
 	}
 		.the-science-behiend-section {
-			padding: 26px 16px;
+			padding: 1.625rem 1rem;
 	}
 }
 
@@ -603,11 +616,11 @@
 .how-it-works-items-wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	gap: 40px;
+	gap: 2.5rem;
 }
 .how-it-works-item {
-	padding: 32px;
-	border-radius: 16px;
+	padding: 2rem;
+	border-radius: 1rem;
 	position: relative;
 }
 .how-it-works-item.step-1 {
@@ -622,42 +635,42 @@
 .how-it-works-item h3 {
 	color: #121212;
 	opacity: 0.36;
-	margin-bottom: 70px;
+	margin-bottom: 4.375rem;
 }
 .how-it-works-item h4 {
 	color: #121212;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
-	letter-spacing: -0.48px;
+	letter-spacing: -0.03rem;
 }
 .how-it-works-item p {
 	color: #121212;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 140%;
-	letter-spacing: -0.18px;
+	letter-spacing: -0.0112rem;
 }
 .make-money-icon {
-	max-width: 155px;
-	max-height: 155px;
+	max-width: 9.6875rem;
+	max-height: 9.6875rem;
 	position: absolute;
-	top: -45px;
-	right: 23px;
+	top: -2.8125rem;
+	right: 1.4375rem;
 }
 .abc-icon.media {
-	max-width: 156px;
-	max-height: 134px;
+	max-width: 9.75rem;
+	max-height: 8.375rem;
 	position: absolute;
-	top: -12px;
+	top: -0.75rem;
 	right: 0;
 }
 .closer-icon {
-	max-width: 227px;
-	max-height: 105px;
+	max-width: 14.1875rem;
+	max-height: 6.5625rem;
 	position: absolute;
-	top: 16px;
+	top: 1rem;
 	right: 0;
 }
 .how-it-works-bottom {
@@ -667,30 +680,30 @@
 @media only screen and (max-width: 767px){
 	.how-it-works-items-wrapper {
 		grid-template-columns: repeat(1, 1fr);
-}
+	}
 
 }
 
 
 @media only screen and (max-width: 400px){
-.make-money-icon {
-	max-width: 105px;
-	max-height: 105px;
-	top: -12px;
-	right: 0;
-}
-.abc-icon.media {
-	max-width: 88px;
-	max-height: 75px;
-	top: 15px;
-	right: 0;
-}
-.closer-icon {
-	max-width: 155px;
-	max-height: 72px;
-	top: 17px;
-	right: 0;
-}
+	.make-money-icon {
+		max-width: 6.5625rem;
+		max-height: 6.5625rem;
+		top: -0.75rem;
+		right: 0;
+	}
+	.abc-icon.media {
+		max-width: 5.5rem;
+		max-height: 4.6875rem;
+		top: .9375rem;
+		right: 0;
+	}
+	.closer-icon {
+		max-width: 9.6875rem;
+		max-height: 4.5rem;
+		top: 1.0625rem;
+		right: 0;
+	}
 }
 
 

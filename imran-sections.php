@@ -442,7 +442,7 @@
 <!-- Value Proposition Start -->
 <section class="value-proposition layout-padding">
     <div class="value-proposition-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
-        <div class="section-heading pb-50">
+        <div class="section-heading pb-50 text-center">
             <h2>Unlock Your Sales Personality  - <br> <span>and Watch Everything Click</span></h2>
         </div>
         <div class="value-proposition-content-wrapper">
@@ -468,8 +468,8 @@
 
 <!-- Why Take the Quiz Section Start -->
 <section class="take-the-quiz layout-padding">
-    <div class="take-the-quiz-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
-        <div class="section-heading pb-50">
+    <div class="take-the-quiz-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-0">
+        <div class="section-heading pb-50 text-center">
             <h2>Why Take the Quiz?</span></h2>
         </div>
         <div class="take-the-quiz-content-wrapper">
@@ -533,7 +533,8 @@
             </div>
         </div>
 
-        <div class="what-happens pt-90 pb-48">
+        <div class="what-happens pt-90 pb-50">
+            <div class="what-happens-shape"></div>
             <h3>What Happens After</h3>
             <p>Once your results load, your <span>Buddi comes to life - cracking jokes, dropping insights, and serving personalized micro-coaching that actually works.</span> <br> <br> You’ll immediately see how to turn your natural style into a repeatable, high-performing system.</p>
             <a href="#" class="site-btn quiz-btn">Take the Sales Persona Quiz</a>
@@ -548,7 +549,7 @@
 <!-- How It Works Seles Buddi Start -->
 <section class="how-it-works layout-padding">
     <div class="how-it-works-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
-        <div class="section-heading pb-50">
+        <div class="section-heading pb-50 text-center">
             <h2>How It Works - <br> <span>IN 3 SIMPLE STEPS</span></h2>
         </div>
         <div class="how-it-works-items-wrapper pt-lg-50 pb-lg-50 pb-40">
