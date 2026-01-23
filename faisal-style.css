@@ -502,6 +502,9 @@ p {
 }
 .deal-slip-right img {
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 }
 @media only screen and (max-width: 767px) {
@@ -534,6 +537,7 @@ p {
 .socials-app-wrapper {
 	justify-content: center;
 }
+
 }
 /*
 ==================================
