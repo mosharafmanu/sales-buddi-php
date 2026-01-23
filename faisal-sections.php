@@ -238,7 +238,7 @@
 <!-- Psychology Advantage Section  -->
 <section class="psychology-advantage layout-padding pt-70 pt-lg-100 pb-lg-100">
      <div class="sb-container">
-         <div class="section-heading mb-20 mb-lg-40 text-center">
+         <div class="section-heading mb-40 text-center">
              <h2>The Psychology <span>Advantage</span></h2>
              <p class="heading-description">Here’s the secret most reps never learn:</br>
               Sales isn’t just about what you say - it’s about how people feel when you say it.</p>

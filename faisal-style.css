@@ -127,6 +127,9 @@
 .what-sales-footer p {
 	font-size: 1.25rem;
 }
+.what-sales-image img {
+	height: auto;
+}
 }
 @media only screen and (max-width: 767px) {
 .what-sales-footer p {
@@ -223,9 +226,6 @@
 
 
 /* Story Section Css Start */
-.story-section .section-heading {
-	margin-bottom: -20px;
-}
 .story-inner {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -495,6 +495,9 @@ p {
 	grid-template-columns: repeat(1, 1fr);
 	row-gap: 2.813rem;
 }
+.deal-slip-right {
+	max-width: 18.75rem;
+}
 }
 @media only screen and (max-width: 767px) {
 .sec_border::before {
@@ -516,9 +519,6 @@ p {
 .site-btn {
 	font-size: 0.938rem;
 	padding: 0.75rem 1.75rem;
-}
-.deal-slip-right {
-	max-width: 18.75rem;
 }
 }
 /*
