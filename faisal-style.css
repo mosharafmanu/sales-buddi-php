@@ -108,40 +108,41 @@
   font-family: var(--font-zalando-sans);
 }
 @media only screen and (max-width: 1400px) {
-.what-sales-contents {
-	width: 40.625rem;
-}
+	.what-sales-contents {
+		width: 40.625rem;
+	}
 }
 @media only screen and (max-width: 1199px) {
-.what-sales-contents {
-	width: 35.625rem;
-}
-.what-sales-contents h5 {
-	margin-bottom: 2.75rem;
-}
+	.what-sales-contents {
+		width: 35.625rem;
+	}
+	.what-sales-contents h5 {
+		margin-bottom: 2.75rem;
+	}
+	.what-sales-image img {
+		height: auto;
+	}
 }
 @media only screen and (max-width:991px) {
-.what-sales-contents {
-	width: auto;
-}
-.what-sales-footer p {
-	font-size: 1.25rem;
-}
-.what-sales-image img {
-	height: auto;
-}
+	.what-sales-contents {
+		width: auto;
+	}
+	.what-sales-footer p {
+		font-size: 1.25rem;
+	}
+
 }
 @media only screen and (max-width: 767px) {
-.what-sales-footer p {
-	font-size: 1.1rem;
-}
-.what-sales-box-footer p {
-	font-size: 1.1rem;
-}
-.what-sales-boxes-inner {
-	grid-template-columns: repeat(1, 1fr);
-	row-gap: 3rem;
-}
+	.what-sales-footer p {
+		font-size: 1.1rem;
+	}
+	.what-sales-box-footer p {
+		font-size: 1.1rem;
+	}
+	.what-sales-boxes-inner {
+		grid-template-columns: repeat(1, 1fr);
+		row-gap: 3rem;
+	}
 }
 /* What Sales Css End */
 
