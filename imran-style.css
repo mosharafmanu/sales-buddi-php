@@ -79,6 +79,7 @@
 }
 .hero-content {
 	text-align: center;
+	color: var(--sb-heading);
 }
 .hero-content h1,
 .hero-content p {
@@ -185,10 +186,6 @@
 	}
 }
 
-
-
-
-
 @media only screen and (max-width: 400px){
 	.client-review-top {
 		width: 17.375rem;
@@ -196,6 +193,9 @@
 	}
 	.hero-content h1 {
 		font-size: 1.5rem;
+	}
+	.hero-content p {
+		font-size: 16px;
 	}
 	.hero-content h1, .hero-content p {
 		margin-bottom: 1rem;
@@ -294,6 +294,8 @@
 	background: #CBF56D;
 	z-index: 10;
 	border-radius: 1.25rem;
+	fill: #CBF56D;
+	filter: drop-shadow(0 0 12.9px rgba(212, 247, 134, 0.44));
 }
 
 .sales-buddi-personalizes-section {
@@ -333,6 +335,12 @@
 	display: none;
 }
 
+@media only screen and (max-width: 991px){
+	.buddi-personalizes-item-wrapper {
+		padding: 2rem 2rem;
+	}
+}
+
 @media only screen and (max-width: 767px){
 	.introducing-section-content-wrapper {
 		flex-direction: column;
@@ -340,9 +348,8 @@
 	}
 	.introducing-section-media {
 		order: 2;
-		height: 37.5rem;
+		height: 22.5rem;
 		padding: 0;
-		width: 100%;
 	}
 	.sales-buddi-personalizes-section {
 		grid-template-columns: repeat(1, 1fr);
@@ -440,18 +447,21 @@
 	}
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 400px){
 	.value-proposition-btn {
 		text-align: center;
+	}
+	.how-it-works-inner h2 br {
+		display: none;
 	}
 }
 
 
 /* Why Take the Quiz Section Start */
 .take-the-quiz-content {
-  display: flex;
-  column-gap: 4.5rem;
-  align-items: center;
+	display: flex;
+	column-gap: 4.5rem;
+	align-items: center;
 }
 .take-the-quiz-content h4 {
 	font-size: 1.25rem;
@@ -494,7 +504,7 @@
 	color: var(--sb-primary);
 }
 .the-science-behiend-content p span {
-  color: var(--sb-white);
+	color: var(--sb-white);
 }
 
 .the-science-behiend-section {
@@ -677,6 +687,45 @@
 	text-align: center;
 }
 
+@media only screen and (max-width: 1200px){
+	.make-money-icon {
+		max-width: 7.688rem;
+		max-height: 6.688rem;
+		top: -1.8125rem;
+		right: .5rem;
+	}
+	.abc-icon.media {
+		max-width: 7.75rem;
+		max-height: 6.375rem;
+		top: -0.75rem;
+		right: 0;
+	}
+	.closer-icon {
+		max-width: 10.188rem;
+		max-height: 4.563rem;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	.make-money-icon {
+		max-width: 6rem;
+		max-height: 6rem;
+		top: -1.8125rem;
+		right: 1rem;
+	}
+	.abc-icon.media {
+		max-width: 6rem;
+		max-height: 6rem;
+		position: absolute;
+		top: -0.75rem;
+		right: 0;
+	}
+	.closer-icon {
+		max-width: 8rem;
+		max-height: 5rem;
+	}
+}
+
 @media only screen and (max-width: 767px){
 	.how-it-works-items-wrapper {
 		grid-template-columns: repeat(1, 1fr);
@@ -686,6 +735,12 @@
 
 
 @media only screen and (max-width: 400px){
+	.how-it-works-item h3 {
+		margin-bottom: 2rem;
+	}
+	.how-it-works-item h4 {
+	font-size: 1.25rem;
+	}
 	.make-money-icon {
 		max-width: 6.5625rem;
 		max-height: 6.5625rem;
@@ -703,6 +758,9 @@
 		max-height: 4.5rem;
 		top: 1.0625rem;
 		right: 0;
+	}
+	.how-it-works-item p {
+		font-size: 1rem;
 	}
 }
 
