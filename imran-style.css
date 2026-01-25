@@ -66,7 +66,8 @@
 	}
 	.shape-wrapper {
 		margin-top: -4.75rem;
-	}
+		z-index: -1;
+    }
 }
 
 /* Hero Style Start */
@@ -226,7 +227,6 @@
 	text-align: center;
 }
 .introducing-section-headding h2 {
-	font-size: 3rem;
 	font-weight: 600;
 	letter-spacing: -0.06rem;
 }
@@ -362,9 +362,6 @@
 }
 
 @media only screen and (max-width: 400px){
-	.introducing-section-headding h2 {
-		font-size: 1.5rem;
-	}
 	.introducing-section-content h3 {
 		letter-spacing: -0.06rem;
 		margin-bottom: 1.125rem;
@@ -432,7 +429,11 @@
 	border-radius: 1rem;
 	overflow: hidden;
 }
-
+@media only screen and (max-width:991px) {
+	.value-proposition-media img {
+		height: auto;
+	}
+}
 @media only screen and (max-width: 767px){
 	.value-proposition-content-wrapper {
 		display: grid;
@@ -545,7 +546,6 @@
 	left: calc(44% - 9.375rem);
 }
 .what-happens h3 {
-	font-size: 2.25rem;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 140%;

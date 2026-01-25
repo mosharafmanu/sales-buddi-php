@@ -440,6 +440,9 @@ Deal Slip Away Section
 .section-heading h2 {
   margin-bottom: 1rem;
 }
+.deal-slip-right {
+	align-self: end;
+}
 .deal-slip-content-bottom h4 {
 	color: var(--sb-primary);
 	letter-spacing: -0.72px;
@@ -501,7 +504,6 @@ p {
 	height: auto;
 }
 .deal-slip-right img {
-	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 
